@@ -1,0 +1,22 @@
+node_modules
+# Ignore artifacts:
+build
+dist
+coverage
+.gitignore
+.npmrc
+.prettierignore
+yarn.lock
+package-lock.json
+pnpm-lock.json
+
+export/
+deployments/
+artifacts/
+cache/
+node_modules/
+package.json
+typechain/
+_lib/
+*.json
+.yalc
