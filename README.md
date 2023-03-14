@@ -20,10 +20,10 @@ It has some cool features like:
 
 ## 🔧 Installation
 
-1. Clone this repository or click in the "" button in this repository:
+1. Clone this repository or click in the "Use this template" button in this repository:
 
 ```bash
-git clone
+git clone https://github.com/NauCode/nau-hardhat-typescript-auditor-template.git
 ```
 
 2. Open it in the terminal and instal the node modules:

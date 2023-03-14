@@ -9,6 +9,24 @@
     "audit",
     "poc"
   ],
+  "homepage": "https://github.com/NauCode/nau-hardhat-typescript-auditor-template#readme",
+  "bugs": {
+    "url" : "https://github.com/NauCode/nau-hardhat-typescript-auditor-template/issues",
+    "email" : "al@nauverse.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/NauCode/nau-hardhat-typescript-auditor-template/blob/main/LICENSE"
+  },
+  "author": {
+    "name": "Al | @thenaubit",
+    "email": "al@nauverse.com",
+    "url": "https://twitter.com/thenaubit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NauCode/nau-hardhat-typescript-auditor-template.git"
+  },
   "scripts": {
     "compile": "hardhat compile",
     "run": "hardhat run",
