@@ -1,6 +1,6 @@
 {
   "name": "nau-hardhat-typescript-auditor-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "👷‍♂️Hardhat + Typescript auditor template ready to built POCs with it!",
   "keywords": [
     "hardhat",

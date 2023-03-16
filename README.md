@@ -48,7 +48,7 @@ If you want to use the gas report feature, you need to create a .env file like t
 cp .env.example .env
 ```
 
-Then, set the var `REPORT_GAS` as `TRUE` and [get a CoinMarketCap API key](https://coinmarketcap.com/api/documentation/v1/). Set that API key in the var `COINMARKETCAP_API_KEY`.
+Then, if you want the gas report with real prices (this step is optional), set the var `REPORT_GAS` as `TRUE` and [get a CoinMarketCap API key](https://coinmarketcap.com/api/documentation/v1/). Set that API key in the var `COINMARKETCAP_API_KEY`.
 Now you are ready!
 
 ## ⚒️ Functions and Tools included
@@ -135,6 +135,7 @@ These are the extensions the template will recommend you:
 - **Solidity by Juan Blanco**: [Marketplace docs](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)
 - **Solidity Visual Developer**: [Marketplace docs](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor)
 - **Slither**: [Marketplace docs](https://marketplace.visualstudio.com/items?itemName=trailofbits.slither-vscode)
+- **Solidity Metrics**: [Marketplace docs](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-metrics)
 
 ## 🏗️ Contributions
 
