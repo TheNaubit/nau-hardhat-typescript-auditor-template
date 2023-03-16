@@ -40,6 +40,12 @@ npm i
 yarn
 ```
 
+3. **Very important**: Run this command:
+
+```bash
+yarn clean
+```
+
 ## ⛽ Enabling the Gas Report feature (optional)
 
 If you want to use the gas report feature, you need to create a .env file like this:
@@ -125,6 +131,14 @@ Apply automatically all the formatting settings in all your files by running:
 
 ```bash
 yarn format:fix
+```
+
+### ✔️ Test Coverage
+
+Check the test coverage of the project with one command:
+
+```bash
+yarn coverage
 ```
 
 ## 🔌 VS Code Recommended Extensions

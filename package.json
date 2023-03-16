@@ -1,6 +1,6 @@
 {
   "name": "nau-hardhat-typescript-auditor-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "👷‍♂️Hardhat + Typescript auditor template ready to built POCs with it!",
   "keywords": [
     "hardhat",
@@ -11,12 +11,8 @@
   ],
   "homepage": "https://github.com/NauCode/nau-hardhat-typescript-auditor-template#readme",
   "bugs": {
-    "url" : "https://github.com/NauCode/nau-hardhat-typescript-auditor-template/issues",
-    "email" : "al@nauverse.com"
-  },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/NauCode/nau-hardhat-typescript-auditor-template/blob/main/LICENSE"
+    "url": "https://github.com/NauCode/nau-hardhat-typescript-auditor-template/issues",
+    "email": "al@nauverse.com"
   },
   "author": {
     "name": "Al | @thenaubit",
@@ -34,6 +30,7 @@
     "node": "cross-env MINING_INTERVAL=\"3000,5000\" hardhat node --hostname 0.0.0.0",
     "clean": "hardhat clean",
     "gas": "cross-env REPORT_GAS=true hardhat test",
+    "coverage": "hardhat coverage",
     "format": "prettier --check \"**/*.{ts,js,sol}\"",
     "format:fix": "prettier --write \"**/*.{ts,js,sol}\""
   },
@@ -52,6 +49,7 @@
     "@types/node": "^18.15.3",
     "chai": "^4.3.7",
     "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
     "ethers": "^5.7.2",
     "hardhat": "^2.13.0",
     "hardhat-gas-reporter": "^1.0.9",
@@ -62,8 +60,5 @@
     "tsconfig-paths": "^4.1.2",
     "typechain": "^8.1.1",
     "typescript": "^4.9.5"
-  },
-  "dependencies": {
-    "dotenv": "^16.0.3"
   }
 }

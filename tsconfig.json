@@ -13,6 +13,6 @@
     },
   },
   "exclude": ["dist", "node_modules"],
-  "include": ["./test", "./scripts", "./typechain"],
+  "include": ["./test", "./scripts", "./typechain-types"],
   "files": ["./hardhat.config.ts"]
 }

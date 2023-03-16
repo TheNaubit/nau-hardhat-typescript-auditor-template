@@ -4,6 +4,7 @@ import '@nomiclabs/hardhat-etherscan'
 import '@typechain/hardhat'
 import 'tsconfig-paths/register'
 import 'dotenv/config'
+import 'solidity-coverage'
 
 const config: HardhatUserConfig = {
 	solidity: {
@@ -25,10 +26,6 @@ const config: HardhatUserConfig = {
 		enabled: process.env.REPORT_GAS ? true : false,
 		coinmarketcap: process.env.COINMARKETCAP_API_KEY,
 		maxMethodDiff: 10,
-	},
-	typechain: {
-		outDir: 'typechain',
-		target: 'ethers-v5',
 	},
 }
 
